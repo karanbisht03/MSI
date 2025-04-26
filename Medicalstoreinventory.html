@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Store Inventory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Medical Store Inventory</h1>
+    <!-- Services Section -->
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service">
+        <h3>🏠 Home Delivery</h3>
+        <p>We provide fast and safe delivery of medicines directly to your doorstep.</p>
+        <a href="delivery.html" class="service-btn">Request Delivery</a>
+      </div>
+      <div class="service">
+        <h3>🏥 Hospital Supply</h3>
+        <p>Bulk medicine supply available for clinics and hospitals with timely restocking.</p>
+        <a href="delivery.html" class="service-btn">Request Delivery</a>
+      </div>
+    </div>
+  </section>
+<!-- Categories Section -->
+<section class="categories">
+    <h2>Medicine Categories</h2>
+      <div class="category-list">
+        <a href="category.html?type=Tablets" class="category">💊 Tablets</a>
+        <a href="category.html?type=Syrups" class="category">🧴 Syrups</a>
+        <a href="category.html?type=Injections" class="category">💉 Injections</a>
+        <a href="category.html?type=Herbal" class="category">🌿 Herbal</a>
+        <a href="category.html?type=Skincare" class="category">🧼 Skincare</a>
+        <a href="category.html?type=First Aid" class="category">🩹 First Aid</a>
+    
+    </div>
+  </section>
+  <!-- Filter Section -->
+<section class="filter-section">
+    <h2>Filter Medicines</h2>
+    <div class="filter-form">
+      <select id="brandFilter">
+        <option value="">-- Select Brand --</option>
+        <option value="Pfizer">Pfizer</option>
+        <option value="Cipla">Cipla</option>
+        <option value="Sun Pharma">Sun Pharma</option>
+      </select>
+  
+      <select id="categoryFilter">
+        <option value="">-- Select Category --</option>
+        <option value="Tablets">Tablets</option>
+        <option value="Syrups">Syrups</option>
+        <option value="Injections">Injections</option>
+      </select>
+  
+      <button onclick="applyFilters()">Filter</button>
+      <button onclick="resetFilters()">Reset</button>
+    </div>
+  </section>  
+  <!-- Best Selling Medicines Section -->
+<section class="best-sellers">
+    <h2>Top Selling Medicines</h2>
+    <div class="medicine-cards">
+      <div class="medicine-card">
+        <img src="hello/Paracetamol-500mg-Tablets-Intemol-500-2.webp" alt="Paracetamol">
+        <h3>Paracetamol 500mg</h3>
+        <p>Used to relieve fever and mild to moderate pain.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="medicine-card">
+        <img src="hello/amoxicillin-capsules-antibiotics-pills-M57JT4.jpg" alt="Amoxicillin">
+        <h3>Amoxicillin</h3>
+        <p>Common antibiotic for bacterial infections.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="medicine-card">
+        <img src="hello/syrap.avif" alt="Cough Syrup">
+        <h3>Cough Syrup</h3>
+        <p>Relieves dry or wet cough symptoms.</p>
+        <button>Buy Now</button>
+      </div>
+  </section>
+  <!-- Achievements & Approvals Section -->
+<section class="trust-section">
+  <h2>Trusted By</h2>
+  <div class="trust-cards">
+    <div class="trust-card">
+      <img src="hello/certificate 1.jpeg" alt="Govt Approved">
+      <h3>Government Approved</h3>
+      <p>Licensed under national pharmaceutical regulations.</p>
+    </div>
+    <div class="trust-card">
+      <img src="hello/certificae 02.jpeg" alt="ISO Certified">
+      <h3>ISO 9001 Certified</h3>
+      <p>Recognized for quality management and safety practices.</p>
+    </div>
+    <div class="trust-card">
+      <img src="hello/certificate 03.jpeg" alt="Partnered Hospitals">
+      <h3>50+ Hospital Partners</h3>
+      <p>Trusted supplier for major hospitals and clinics.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Disclaimer Section -->
+<footer class="disclaimer">
+    <p>
+      <strong>Disclaimer:</strong><br>
+      This website is a student project created for educational purposes only. The medical information, product listings, and services mentioned here are fictional and should not be considered as a substitute for professional medical advice, diagnosis, or treatment. Always consult a licensed healthcare provider for actual medical needs.<br><br>
+      We do not deliver real medicines or provide actual medical supplies.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
